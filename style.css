@@ -289,6 +289,11 @@ body.dark .dt small {
 @media (max-width: 600px) {
     .container {
         width: 80%;
+        top: 45%;
+    }
+
+    #newtask {
+        padding: 10px 20px;
     }
 
     #newtask input {
