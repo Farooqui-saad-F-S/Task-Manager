@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <h1 id="head-text">Task List</h1>
+        </div>
+        <div id="newtask">
+            <input type="text" placeholder="Add a task">
+            <input type="date" id="date">
+            <input type="time" id="time">
+
+            <select id="selection">
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+            </select>
+
+            <select id="priority">
+                <option value="Green">Low (Green)</option>
+                <option value="Yellow">Medium (Yellow)</option>
+                <option value="Red">High (Red)</option>
+            </select>
+
+            <button id="push">Add</button>
+        </div>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Study">Study</button>
+            <button class="filter-btn" data-filter="Work">Work</button>
+            <button class="filter-btn" data-filter="Personal">Personal</button>
+            <button class="filter-btn" data-filter="Completed">Completed</button>
+        </div>
+
+        <div class="prioSelect">
+            <button class="priority-btn activated" data-priority="None"></button>
+            <button class="priority-btn low" data-priority="Green"></button>
+            <button class="priority-btn medium" data-priority="Yellow" ></button>
+            <button class="priority-btn high" data-priority="Red"></button>
+        </div>
+        <div class="tasks">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
