@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
+    <meta name="description" content="A task manager that help you maintain your task by date time and much more">
+    <title>Task Manager</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
@@ -19,21 +20,31 @@
             <h1 id="head-text">Task List</h1>
         </div>
         <div id="newtask">
+            <label>
             <input type="text" placeholder="Add a task">
+            </label>
+            <label>
             <input type="date" id="date">
+            </label>
+            <label>
             <input type="time" id="time">
+            </label>
 
+            <label>
             <select id="selection">
                 <option value="Study">Study</option>
                 <option value="Work">Work</option>
                 <option value="Personal">Personal</option>
             </select>
+            </label>
 
+            <label>
             <select id="priority">
                 <option value="Green">Low (Green)</option>
                 <option value="Yellow">Medium (Yellow)</option>
                 <option value="Red">High (Red)</option>
             </select>
+            </label>
 
             <button id="push">Add</button>
         </div>
