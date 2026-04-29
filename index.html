@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <main>
     <div class="container">
         <div class="head">
             <label class="switch">
@@ -20,8 +21,8 @@
             <h1 id="head-text">Task List</h1>
         </div>
         <div id="newtask">
-            <label>
-            <input type="text" placeholder="Add a task">
+            <label for="taskInput">
+            <input id="taskInput" type="text" placeholder="Add a task">
             </label>
             <label>
             <input type="date" placeholder="Add Date" id="date">
@@ -30,7 +31,7 @@
             <input type="time" placeholder="Add Time" id="time">
             </label>
 
-            <label>
+            <label for="selection">
             <select id="selection">
                 <option value="Study">Study</option>
                 <option value="Work">Work</option>
@@ -38,7 +39,7 @@
             </select>
             </label>
 
-            <label>
+            <label for="priority">
             <select id="priority">
                 <option value="Green">Low (Green)</option>
                 <option value="Yellow">Medium (Yellow)</option>
@@ -46,27 +47,27 @@
             </select>
             </label>
 
-            <button id="push">Add</button>
+            <button id="push" aria-label="Add task">Add</button>
         </div>
         <div class="filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="Study">Study</button>
-            <button class="filter-btn" data-filter="Work">Work</button>
-            <button class="filter-btn" data-filter="Personal">Personal</button>
-            <button class="filter-btn" data-filter="Completed">Completed</button>
+            <button class="filter-btn active" data-filter="all" aria-label="Filter task">All</button>
+            <button class="filter-btn" data-filter="Study" aria-label="Filter task">Study</button>
+            <button class="filter-btn" data-filter="Work" aria-label="Filter task">Work</button>
+            <button class="filter-btn" data-filter="Personal" aria-label="Filter task">Personal</button>
+            <button class="filter-btn" data-filter="Completed" aria-label="Filter task">Completed</button>
         </div>
 
         <div class="prioSelect">
-            <button class="priority-btn activated" data-priority="None"></button>
-            <button class="priority-btn low" data-priority="Green"></button>
-            <button class="priority-btn medium" data-priority="Yellow" ></button>
-            <button class="priority-btn high" data-priority="Red"></button>
+            <button class="priority-btn activated" data-priority="None" aria-label="priority task"></button>
+            <button class="priority-btn low" data-priority="Green" aria-label="priority task"></button>
+            <button class="priority-btn medium" data-priority="Yellow"  aria-label="priority task"></button>
+            <button class="priority-btn high" data-priority="Red" aria-label="priority task"></button>
         </div>
         <div class="tasks">
             
         </div>
     </div>
-
+</main>
     <script src="script.js"></script>
 </body>
 
