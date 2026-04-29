@@ -289,7 +289,7 @@ body.dark .dt small {
 @media (max-width: 600px) {
     .container {
         width: 80%;
-        top: 45%;
+        top: 43%;
     }
 
     #newtask {
