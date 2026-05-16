@@ -22,14 +22,6 @@ A responsive Task Manager web application built using HTML, CSS, and JavaScript.
 - CSS3
 - JavaScript
 
-## Screenshots
-
-(Add screenshots here)
-
-## Live Demo
-
-(Add GitHub Pages link here)
-
 ## Installation
 
 ```bash
