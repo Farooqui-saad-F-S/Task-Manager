@@ -32,7 +32,7 @@ Open `index.html` in your browser.
 
 ## Live Demo
 
-https://farooqui-saad-f-s.github.io/Task-Manager/
+https://super-task-manager.netlify.app/
 
 ## Future Improvements
 
