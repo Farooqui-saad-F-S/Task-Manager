@@ -30,6 +30,10 @@ git clone https://github.com/Farooqui-saad-F-S/Task-Manager.git
 
 Open `index.html` in your browser.
 
+## Live Demo
+
+https://farooqui-saad-f-s.github.io/Task-Manager/
+
 ## Future Improvements
 
 - Drag and drop tasks
